@@ -10,6 +10,8 @@ generated_docs.append("# copyright")
 generated_docs.append("copyright info like the license")
 generated_docs.append("# install")
 generated_docs.append("how to install your project")
+generated_docs.append("# contribute")
+generated_docs.append("how to contribute to your project")
 
 with open("output_docs.md", "w") as file:
     for item in generated_docs:
